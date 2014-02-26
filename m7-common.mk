@@ -99,6 +99,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/projector_input.idc:system/usr/idc/projector_input.idc \
     $(LOCAL_PATH)/idc/synaptics-rmi-touchscreen.idc:system/usr/idc/synaptics-rmi-touchscreen.idc
 
+# Lunar init.d CPU script
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/etc/init.d/99Lunar:system/etc/init.d/99Lunar \
+
 # Audio
 PRODUCT_PACKAGES += \
     libaudioamp
