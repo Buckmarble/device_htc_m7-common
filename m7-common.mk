@@ -155,6 +155,10 @@ endif
 PRODUCT_COPY_FILES += \
     $(NFCEE_ACCESS_PATH):system/etc/nfcee_access.xml
 
+#Tap and Pay NFC permissions
+PRODUCT_COPY_FILES += \
+        $(LOCAL_PATH)/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml
+
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
 
