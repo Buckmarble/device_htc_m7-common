@@ -344,10 +344,10 @@ service netmgrd /system/bin/netmgrd
     class core
 # End FUSE
 
-service mpdecision /system/bin/mpdecision --no_sleep --avg_comp
-    class main
-    user root
-    disabled
+#service mpdecision /system/bin/mpdecision --no_sleep --avg_comp
+#    class main
+#    user root
+#    disabled
 
 service qcamerasvr /system/bin/mm-qcamera-daemon
     class late_start
