@@ -82,6 +82,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/AudioBTID.csv:system/etc/AudioBTID.csv \
     $(LOCAL_PATH)/configs/AudioBTIDnew.csv:system/etc/AudioBTIDnew.csvs \
     $(LOCAL_PATH)/dsp/snd_soc_msm/snd_soc_msm_2x_Fusion3:system/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3
+    $(LOCAL_PATH)/dsp/snd_soc_msm/snd_soc_msm:system/etc/snd_soc_msm/snd_soc_msm
+    $(LOCAL_PATH)/dsp/snd_soc_msm/snd_soc_msm_2x:system/etc/snd_soc_msm/snd_soc_msm_2x
+    $(LOCAL_PATH)/dsp/snd_soc_msm/snd_soc_msm_2x_Fusion3_DMIC:system/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3_DMIC
+    $(LOCAL_PATH)/dsp/snd_soc_msm/snd_soc_msm_2x_Fusion3_DMIC_S:system/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3_DMIC_S
+    $(LOCAL_PATH)/dsp/snd_soc_msm/snd_soc_msm_2x_Fusion3_DMIC_SK:system/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3_DMIC_SK
+    $(LOCAL_PATH)/dsp/snd_soc_msm/snd_soc_msm_Sitar:system/etc/snd_soc_msm/snd_soc_msm_Sitar
 
 # Media
 PRODUCT_COPY_FILES += \
