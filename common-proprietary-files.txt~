@@ -198,7 +198,9 @@ lib/libmpl.so
 lib/libmpl_jni.so
 
 # Widevine
+<<<<<<< HEAD
 lib/libQSEEComAPI.so
+=======
 bin/qseecomd
 lib/libdrmdecrypt.so
 vendor/lib/drm/libdrmwvmplugin.so
@@ -207,6 +209,7 @@ vendor/lib/libdrmtime.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libQSEEComAPI.so
 vendor/lib/libwvdrm_L1.so
+>>>>>>> 192f9e1... m7-common: Add missing DRM proprietary files
 vendor/lib/libwvm.so
 vendor/lib/libWVStreamControlAPI_L1.so
 vendor/lib/mediadrm/libwvdrmengine.so
