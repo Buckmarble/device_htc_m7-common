@@ -67,6 +67,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
+<<<<<<< HEAD
     $(LOCAL_PATH)/dsp/snd_soc_msm/snd_soc_msm_2x_Fusion3:system/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3
     $(LOCAL_PATH)/dsp/snd_soc_msm/snd_soc_msm:system/etc/snd_soc_msm/snd_soc_msm
     $(LOCAL_PATH)/dsp/snd_soc_msm/snd_soc_msm_2x:system/etc/snd_soc_msm/snd_soc_msm_2x
@@ -74,7 +75,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/dsp/snd_soc_msm/snd_soc_msm_2x_Fusion3_DMIC_S:system/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3_DMIC_S
     $(LOCAL_PATH)/dsp/snd_soc_msm/snd_soc_msm_2x_Fusion3_DMIC_SK:system/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3_DMIC_SK
     $(LOCAL_PATH)/dsp/snd_soc_msm/snd_soc_msm_Sitar:system/etc/snd_soc_msm/snd_soc_msm_Sitar
-    $(LOCAL_PATH)/bluetooth/bcm4335_prepatch.hcd:system/vendor/firmware/bcm4335_prepatch.hcd
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -99,6 +99,9 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_PACKAGES += \
     libaudioamp
+=======
+    $(LOCAL_PATH)/bluetooth/bcm4335_prepatch.hcd:system/vendor/firmware/bcm4335_prepatch.hcd
+>>>>>>> 8a88641... m7-common: General cleanup
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -111,6 +114,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/gps.conf:system/etc/gps.conf
 
+<<<<<<< HEAD
+=======
 # IDC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/projector_input.idc:system/usr/idc/projector_input.idc \
@@ -131,6 +136,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml
 
+>>>>>>> 8a88641... m7-common: General cleanup
 # NFC
 PRODUCT_PACKAGES += \
     nfc.msm8960 \
@@ -149,12 +155,14 @@ endif
 PRODUCT_COPY_FILES += \
     $(NFCEE_ACCESS_PATH):system/etc/nfcee_access.xml
 
+<<<<<<< HEAD
 #Tap and Pay NFC permissions
 PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
+=======
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
@@ -162,6 +170,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.target.rc \
     ueventd.qcom.rc
+>>>>>>> 8a88641... m7-common: General cleanup
 
 # Thermal
 PRODUCT_COPY_FILES += \
