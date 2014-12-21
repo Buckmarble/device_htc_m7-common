@@ -234,15 +234,10 @@
         <item>0</item>
     </integer-array>
 
-<<<<<<< HEAD
-    <!-- <bool name="config_deviceHasVariableButtonBrightness">true</bool> -->
-
     <!-- If this value is true, The mms content-disposition field is supported correctly.
          If false, Content-disposition fragments are ignored -->
     <bool name="config_mms_content_disposition_support">false</bool>
 
-=======
->>>>>>> 7bb4958... m7-common: Disable unimplemented overlay options
     <!-- Whether WiFi display is supported by this device.
          There are many prerequisites for this feature to work correctly.
          Here are a few of them:
@@ -260,29 +255,36 @@
     <!-- Flag indicating if the speed up audio on mt call code should be executed -->
     <bool name="config_speed_up_audio_on_mt_calls">true</bool>
 
-<<<<<<< HEAD
-    <!-- Device supports LED flashlight -->
-    <!-- <bool name="config_enableTorch">true</bool> -->
-
-=======
->>>>>>> 7bb4958... m7-common: Disable unimplemented overlay options
-    <!-- Hardware 'face' keys present on the device, stored as a bit field.
+    <!-- Hardware keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
          of the following keys present:
              1 - Home
              2 - Back
              4 - Menu
-             8 - Search
+             8 - Assistant (search)
             16 - App switch
+            32 - Camera
+            64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <!-- <integer name="config_deviceHardwareKeys">3</integer> -->
-
 <<<<<<< HEAD
-    <!-- Performance profiles -->
-    <!-- <string name="config_perf_profile_prop">sys.perf.profile</string> -->
-    <!-- <string name="config_perf_profile_default_entry">1</string> -->
-
+    <!-- <integer name="config_deviceHardwareKeys">3</integer> -->
 =======
->>>>>>> 7bb4958... m7-common: Disable unimplemented overlay options
+    <integer name="config_deviceHardwareKeys">67</integer>
+
+    <!-- Hardware keys present on the device with the ability to wake, stored as a bit field.
+         This integer should equal the sum of the corresponding value for each
+         of the following keys present:
+             1 - Home
+             2 - Back
+             4 - Menu
+             8 - Assistant (search)
+            16 - App switch
+            32 - Camera
+            64 - Volume rocker
+         For example, a device with Home, Back and Menu keys would set this
+         config to 7. -->
+    <integer name="config_deviceHardwareWakeKeys">64</integer>
+>>>>>>> 8db21cf... m7-common: update hardware key overlays
+
 </resources>
